@@ -1,0 +1,109 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("I suck at coding, please send help", "DarkTheme")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+MainSection:NewButton("Corrupted", "ButtonInfo", function()
+    local script = game.workspace.Bosses.CorruptedSans.Head 
+
+script:Destroy()
+end)
+
+MainSection:NewButton("Killer", "ButtonInfo", function()
+local killer = game.workspace.Bosses.KillerSans.Head 
+
+killer:Destroy()
+end)
+
+MainSection:NewButton("Dust", "ButtonInfo", function()
+local dust = game.workspace.Bosses.DustSans.Head 
+
+dust:Destroy()
+end)
+
+MainSection:NewButton("Horror", "ButtonInfo", function()
+local horror = game.workspace.Bosses.HorrorSans.Head 
+
+horror:Destroy()
+end)
+
+MainSection:NewButton("MTT", "ButtonInfo", function()
+local mtth = game.workspace.Bosses.MTTHorrorSans.Head 
+
+mtth:Destroy()
+wait(0.1)
+
+
+local mttd = game.workspace.Bosses.MTTDustSans.Head 
+
+mttd:Destroy()
+
+wait(0.1)
+
+local mttk = game.workspace.Bosses.MTTKillerSans.Head 
+
+mttk:Destroy()
+wait(0.1)
+end)
+
+MainSection:NewButton("Error", "ButtonInfo", function()
+local err = game.workspace.Bosses.ErrorSans.Head 
+
+err:Destroy()
+end)
+
+MainSection:NewButton("Hyper", "ButtonInfo", function()
+local pieceofshit = game.workspace.Bosses.HyperDustSans.Head 
+
+pieceofshit:Destroy()
+end)
+
+MainSection:NewButton("Gameender", "ButtonInfo", function()
+local pieceofshit2 = game.workspace.Bosses.GAMEENDER.Head 
+
+pieceofshit2:Destroy()
+end)
+
+MainSection:NewButton("TRUEGameender", "ButtonInfo", function()
+local pieceofshit3 = game.workspace.Bosses.TRUEGAMEENDER.Head 
+
+pieceofshit3:Destroy()
+end)
+
+--Secondtab
+local SecondTab = Window:NewTab("Event bosses")
+local Sectionfrom2ndtab = SecondTab:NewSection("Bosses")
+
+Sectionfrom2ndtab:NewButton("M87", "ButtonInfo", function()
+    local M87 = game.workspace.Bosses.M87Boss.Head 
+
+M87:Destroy()
+end)
+
+Sectionfrom2ndtab:NewButton("Fell", "ButtonInfo", function()
+    local fell = game.workspace.Bosses.UnderFellBoss.Head 
+
+fell:Destroy()
+end)
+Sectionfrom2ndtab:NewButton("Fell", "ButtonInfo", function()
+    local fell2 = game.workspace.Bosses.UnderFellBossPhase2.Head 
+
+fell2:Destroy()
+end)
+
+local Thirdtab = Window:NewTab("Chance bosses")
+local Thirdtabsection = Thirdtab:NewSection("Bosses")
+
+Thirdtabsection:NewButton("Sans...?", "ButtonInfo", function()
+    local SS = game.workspace.Bosses.Sans.Head 
+
+SS:Destroy()
+end)
+
+Thirdtabsection:NewButton("Teleport to map", "Too lazy to create new cattegory", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(90.7008438, 10.4600544, -1118.40674, -0.533847094, -8.60358966e-08, 0.845581055, 1.70362817e-08, 1, 1.12503308e-07, -0.845581055, 7.44651203e-08, -0.533847094)
+end)
+
